@@ -1,1 +1,1 @@
-UPDATE characters SET species = "Martian" WHERE MIN(species)
+UPDATE characters SET species = "Martian" DESC LIMIT 1;
