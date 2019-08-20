@@ -17,8 +17,8 @@ INSERT INTO characters(name, motto, species, author_id, series_id) VALUES ("Karr
 INSERT INTO characters(name, motto, species, author_id, series_id) VALUES ("Victor Sells", "I will get revenge.", "sorcerer", 2, 2);
 INSERT INTO characters(name, motto, species, author_id, series_id) VALUES ("Monica Sells", "Are you the wizard detective?", "human", 2, 2);
 
-INSERT INTO sub_genres(name) VALUES ("heroic fantasy");
-INSERT INTO sub_genres(name) VALUES ("detective");
+INSERT INTO subgenres(name) VALUES ("heroic fantasy");
+INSERT INTO subgenres(name) VALUES ("detective");
 
 INSERT INTO authors(name) Values ("Patrick Rothfuss");
 INSERT INTO authors(name) Values ("Jim Butcher");
